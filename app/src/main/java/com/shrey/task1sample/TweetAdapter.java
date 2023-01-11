@@ -15,9 +15,7 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
-/**
- * Created by Shrey on 12/3/2017.
- */
+
 
 public class TweetAdapter extends ArrayAdapter<Tweet> {
 

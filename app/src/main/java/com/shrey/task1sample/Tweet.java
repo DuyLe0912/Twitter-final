@@ -5,9 +5,7 @@ import android.widget.ImageButton;
 
 import androidx.core.content.ContextCompat;
 
-/**
- * Created by Shrey on 12/3/2017.
- */
+
 
 public class Tweet {
 
