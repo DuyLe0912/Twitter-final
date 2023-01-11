@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TweetActivity">
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/togglePic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="20dp"
+        android:src="@drawable/main_profile_1"
+        app:riv_border_color="#333333"
+        app:riv_border_width="0.1dp"
+        app:riv_corner_radius="20dp"
+        app:riv_oval="true" />
+    <EditText
+        android:id="@+id/textbox"
+        android:layout_alignParentRight="true"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
+        android:hint="What's Happening?" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/twtbutton"
+        android:text="Tweet"
+        android:background="#2196f3"
+        android:layout_below="@+id/textbox"
+        android:layout_alignParentRight="true"
+
+        />
+
+</RelativeLayout>
