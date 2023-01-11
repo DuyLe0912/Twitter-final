@@ -8,8 +8,8 @@
     <!-- Drawer Item Strings -->
     <string name="item_profile">Profile</string>
     <string name="item_lists">Lists</string>
-    <string name="item_moments">Moments</string>
-    <string name="item_highlights">Highlights</string>
+    <string name="item_moments">Topic</string>
+    <string name="item_highlights">Bookmark</string>
     <string name="item_sap">Status and Privacy</string>
     <string name="item_help">Help Center</string>
     <string name="item_night">Night Mode</string>

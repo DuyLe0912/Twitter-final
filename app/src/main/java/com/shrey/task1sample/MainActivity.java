@@ -117,7 +117,22 @@ public class MainActivity extends AppCompatActivity {
                         new PrimaryDrawerItem().withIdentifier(6).withName(R.string.item_sap).withSelectable(false),
                         new PrimaryDrawerItem().withIdentifier(7).withName(R.string.item_help).withSelectable(false)
 
-                ).withOnDrawerItemClickListener((view, position, drawerItem) -> true)
+                ).withOnDrawerItemClickListener((view, position, drawerItem) -> {
+                    if(drawerItem.getIdentifier() == 2){
+                        Intent intent = new Intent(this,ProfilePersonActivity.class);
+                        startActivity(intent);
+                    }else if(drawerItem.getIdentifier() == 3){
+                        Intent intent = new Intent(this,ListActivity.class);
+                        startActivity(intent);
+                    }else if(drawerItem.getIdentifier() == 4){
+                        Intent intent = new Intent(this,TopicActivity.class);
+                        startActivity(intent);
+                    }else if(drawerItem.getIdentifier() == 5){
+                        Intent intent = new Intent(this,BookMarksActivity.class);
+                        startActivity(intent);
+                    }
+                    return true;
+                })
                 .addStickyDrawerItems(
 
                         // Adding options to the footer of the side navigation drawer
